@@ -12,9 +12,9 @@
 }
 
 :root{
-    --text-color: #fff;
-    --bg-color: #000;
-    --main-color: #ffa343;
+    --text-color: #F3F0CA;
+    --bg-color: #192655;
+    --main-color: #3876BF;
 
     --h1-font: 6rem;
     --h2-font: 3rem;
@@ -111,7 +111,7 @@ section{
     position: relative;
     height: 100vh;
     width: 100%;
-    background-image: linear-gradient(to left, rgba(0,0,0,0.6), rgba(0,0,0,0.3)), url(../img/fundo.jpg);
+    background-image: linear-gradient(to left, rgba(25, 38, 85, 0.6), rgba(25, 38, 85, 0.3)), url(../img/fundo.jpg);
     background-size: cover;
     background-position: bottom center;
     display: flex;
@@ -257,55 +257,56 @@ header.sticky{
     font-weight: 800;
 }
 
-.tour-content{
+.tour-content {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, auto));
-    align-items: center;
+    align-items: flex-start; /* Ajuste para alinhar os itens no topo */
     gap: 3rem;
     margin-top: 5rem;
 }
 
-.box{
+.box {
     position: relative;
+    width: 100%; /* Adicionado para ocupar 100% da largura do contêiner pai */
+    margin-bottom: 30px; /* Espaçamento vertical entre as caixas */
 }
 
-.box img{
+.box img {
     width: 100%;
-    height: 100px;
+    height: 100%;
     object-fit: cover;
     border-radius: 10px;
     filter: brightness(70%);
-    transition: all .3s cubic-bezier(.499, .05, .55, .95);
+    transition: all 0.3s cubic-bezier(0.499, 0.05, 0.55, 0.95);
     will-change: filter;
     display: block;
 }
 
-.box h6{
+.box h6,
+.box h4 {
     position: absolute;
     left: 25px;
-    bottom: 95px;
+    bottom: 20px; /* Ajuste da posição para evitar sobreposição com a imagem */
     font-size: 18px;
     font-weight: 500;
 }
 
-.box h4{
-    position: absolute;
-    left: 25px;
-    bottom: 65px;
+.box h4 {
     font-size: 20px;
     font-weight: 700;
 }
 
-.box img:hover{
+.box img:hover {
     filter: brightness(90%) hue-rotate(50deg);
     transform: scale(1.04);
     cursor: pointer;
 }
 
-.center-btn{
+.center-btn {
     text-align: center;
     margin-top: 4rem;
 }
+
 
 /* Todo: Culture section */
 .Culture{
