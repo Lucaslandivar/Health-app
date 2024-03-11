@@ -56,7 +56,7 @@ span{
     display: flex;
 }
 
-.navbar li{
+.navbar a{
     color: var(--text-color);
     font-size: var(--p-font);
     font-weight: 500;
@@ -65,7 +65,7 @@ span{
     cursor: pointer;
 }
 
-.navbar li:hover{
+.navbar a:hover{
     color: var(--main-color);
 }
 
@@ -178,7 +178,7 @@ header.sticky{
     gap: 3rem;
 }
 
-.row-image{
+.row-img{
     overflow: hidden;
     width: 100px;
     height: 100px;
@@ -188,13 +188,13 @@ header.sticky{
     cursor: pointer;
 }
 
-.row-image img{
+.row-img img{
     width: 100%;
     display: block;
     transition: transform 0.7s;
 }
 
-.row-image img:hover{
+.row-img img:hover{
     transform: scale(1.2);
 }
 
@@ -496,7 +496,7 @@ header.sticky{
         background: var(--bg-color);
         transition: all .50s ease;
     }
-    .navbar li{
+    .navbar a{
         display: block;
         color: #979797;
         padding: 0;
