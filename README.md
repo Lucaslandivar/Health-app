@@ -21,10 +21,10 @@ At Health First, our mission is to promote mental wellness, advocate for mental 
 Health First caters to individuals of all ages who are interested in learning about mental health, seeking support for themselves or others, or contributing to mental health advocacy efforts. Our platform is inclusive and welcoming to people from diverse backgrounds and experiences.</p> 
 
 <h2>Why i make this project?</h2>
-<p>I make this project so i can help my partner with the bussines she has and also to know new functions in JavaScript.</p>
+<p>I developed Health First out of a deep sense of responsibility and compassion for individuals struggling with mental health issues. Having witnessed the profound impact that mental health challenges can have on individuals and their loved ones, I felt compelled to create a platform that offers support, education, and empowerment.</p>
 
 <h2>How does this project work?</h2>
-<P>The premise of this project is similar to the premise of the Mymeds project, to have a control of stock, of stock output, of stock entry and the control of money, only that this project has a new function which is that of sale.</p>
+<P>First aims to empower individuals to take proactive steps towards improving their mental health, provide them with the resources and support they need to navigate challenges, and contribute to a more inclusive and compassionate society that prioritizes mental well-being.</p>
 
 <h2>Tecnologies</h2>
 <p>HTML</p>
