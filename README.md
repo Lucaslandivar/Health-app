@@ -1,5 +1,5 @@
-<h1>Bussines Project</h1>
-  <img src="img/Captura de Tela (124).png">
+<h1>Health First</h1>
+  <img src="img/HealthFirst.png">
 
 <h2>Project Deploy</h2>
  <a href="https://health-app-ashy.vercel.app/" target="_blank">Click here</a>
